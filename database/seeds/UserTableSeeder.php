@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use Illuminate\Hash;
+use Illuminate\Support\Facades\Hash;
 use App\User;
 class UserTableSeeder extends Seeder
 {
@@ -15,7 +15,7 @@ class UserTableSeeder extends Seeder
         User::create([
             'name'=>'Admin User',
             'email'=>'admin@admin.com',
-            'password'=>\Hash::make('password')
+            'password'=> Hash::make('password')
         ]);
     }
 }
