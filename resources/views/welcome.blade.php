@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel Mini-Crm Task
+                    Laravel Mini-Crm Task <br> Kedeayei Ibiang
                 </div>
             </div>
         </div>
